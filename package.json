@@ -22,7 +22,7 @@
   "author": "vyshnav",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/Vyshnavkv98/jobspot-helper"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
@@ -39,7 +39,11 @@
   },
   "types": "./src/index.d.ts",
   "dependencies": {
+    "@elastic/elasticsearch": "^8.17.0",
+    "cloudinary": "^2.5.1",
     "express": "^4.21.2",
+    "http-status-codes": "^2.3.0",
+    "mongoose": "^8.10.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.3"
   },
