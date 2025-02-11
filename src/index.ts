@@ -71,23 +71,23 @@ export {
   } from './interfaces/seller.interface';
   export { IEmailLocals } from './interfaces/email.interface';
   export { uploads, videoUpload } from './cloudinaryUpload';
-//   export {
-//     IErrorResponse,
-//     IError,
-//     CustomError,
-//     BadRequestError,
-//     NotFoundError,
-//     NotAuthorizedError,
-//     FileTooLargeError,
-//     ServerError,
-//     ErrnoException
-//   } from './error-handler';
-//   export { verifyGatewayRequest } from './gateway-middleware';
-//   export { winstonLogger } from './logger';
-//   export {
-//     firstLetterUppercase,
-//     lowerCase,
-//     toUpperCase,
-//     isEmail,
-//     isDataURL
-//   } from './helpers';
+  export {
+    IErrorResponse,
+    IError,
+    CustomError,
+    BadRequestError,
+    NotFoundError,
+    NotAuthorizedError,
+    FileTooLargeError,
+    ServerError,
+    ErrnoException
+  } from './interfaces/errorHandler';
+  export { verifyGatewayRequest } from './gatewayMiddleware';
+  export { winstonLogger } from './logger';
+  export {
+    firstLetterUppercase,
+    lowerCase,
+    toUpperCase,
+    isEmail,
+    isDataURL
+  } from './helper';
